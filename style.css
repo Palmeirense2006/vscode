@@ -1,0 +1,53 @@
+body{
+    color: black (2, 122, 0);
+    background: greenyellow (219, 239, 85);
+    margin: 0px;
+    font-family: "handjet";
+  }
+header{
+    border-bottom: solid 2px peru;
+    padding: 15px;
+    font-size: 28px;
+  }
+section{
+     background: orange;
+     padding-top: 16px;
+     padding-bottom: 16px;
+     display: flex;
+     justify-content: center;
+}
+.chamada-texto{
+     margin: 1%;
+     
+ }
+
+h1{
+    font-size: 25px;
+
+}
+
+p{
+    font-size: 15px;
+
+}
+
+img{
+  height: 150px;
+  opacity: 0.5
+}
+
+img:hover{
+  opacity: 1.0;
+  border: solid 5px white;
+
+}
+
+.categoria-videos{
+  display: flex;
+  overflow-x: auto;
+}
+
+.secao-videos{
+  background: greenyellow;
+  
+}
